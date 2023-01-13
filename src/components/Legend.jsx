@@ -3,7 +3,7 @@ import { Card, Col, Container, OverlayTrigger, Row, Tooltip } from 'react-bootst
 import Colormap from 'colormap';
 import { useMap } from 'react-leaflet';
 import L from 'leaflet'
-import { FullscreenControl } from 'react-leaflet-fullscreen';
+// import { FullscreenControl } from 'react-leaflet-fullscreen';
 
 const Legend = ({ color, range }) => {
 	const [rangeArr, setRangeArr] = useState([]);
